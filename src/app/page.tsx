@@ -17,7 +17,7 @@ export default function Home() {
             <Search />
             <h2 className="centerblock__h2">Треки</h2>
             <Filters />
-           <Tracks />
+            <Tracks />
           </div>
           <Sidebar />
         </main>
