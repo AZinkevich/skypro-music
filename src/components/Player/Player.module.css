@@ -7,8 +7,7 @@
 }
 
 .barContent {
-    /* display: -webkit-box;
-    display: -ms-flexbox; */
+   
     display: flex;
 
     flex-direction: column;
@@ -32,8 +31,7 @@
 }
 
 .barPlayer {
-    /* display: -webkit-box;
-    display: -ms-flexbox; */
+  
     display: flex;
 
     flex-direction: row;
@@ -44,8 +42,7 @@
 }
 
 .playerControls {
-    /* display: -webkit-box;
-    display: -ms-flexbox; */
+   
     display: flex;
 
     flex-direction: row;
@@ -147,9 +144,8 @@
     stroke: #696969;
 }
 
-.playerRrackPlay {
-    /* display: -webkit-box;
-    display: -ms-flexbox; */
+.playerTrackPlay {
+    
     display: flex;
 
     flex-direction: row;
@@ -170,8 +166,7 @@
     width: 51px;
     height: 51px;
     background-color: #313131;
-    /* display: -webkit-box;
-    display: -ms-flexbox; */
+    
     display: flex;
 
     align-items: center;
@@ -223,8 +218,7 @@
 }
 
 .trackPlayLikeDis {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    
     display: flex;
 
     flex-direction: row;
@@ -267,9 +261,15 @@
     fill: transparent;
     stroke: #696969;
 }
-.track-play__like-svg:active,
-.track-play__dislike-svg:active {
-  fill: #696969;
-  stroke: #ffffff;
-  cursor: pointer;
+
+.trackPlayDislike:hover svg {
+    fill: transparent;
+    stroke: #acacac;
+    cursor: pointer;
+}
+
+.trackPlayDislike:active svg {
+    fill: transparent;
+    stroke: #ffffff;
+    cursor: pointer;
 }
