@@ -1,10 +1,9 @@
-import styles from "./page.module.css";
+//import styles from "./page.module.css";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import Menu from "@/components/Menu/Menu";
 import Search from "@/components/Search/Search";
 import Filters from "@/components/Filters/Filters";
 import Player from "@/components/Player/Player";
-import Volume from "@/components/Volume/Volume";
 import Tracks from "@/components/Tracks/Tracks";
 
 export default function Home() {
